@@ -1,0 +1,40 @@
+body{
+    background-color: gainsboro !important;
+}
+.card{
+    width: 75px;
+    height: 150px;
+}
+.topCard{
+    width: 75px;
+    height: 150px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#hand{
+    margin-top:50px;
+}
+#topCardRow{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#topCardCol {
+    padding: 0 20px 0 100px;
+}
+
+#direction{
+    padding-left: 30px;
+}
+#turnID{
+    padding-left: 30px;
+}
+#8Played{
+    margin-top:40px;
+}
